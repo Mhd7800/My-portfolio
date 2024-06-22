@@ -13,7 +13,7 @@ const Header = () => {
       <nav>
         <div className='Header'>
           <div className='HeaderLeft'>
-            <span><a href='#'>MO</a></span>
+            <span><a href='/'>MO</a></span>
           </div>
           <div className='Hamburger' onClick={toggleMenu}>
             <div className={isOpen ? 'Bar open' : 'Bar'}></div>

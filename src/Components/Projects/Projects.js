@@ -2,7 +2,8 @@ import React from 'react'
 import "./Projects.css"
 
 const Projects = () => {
-    const titleStyle = {
+
+   /* const titleStyle = {
   fontSize: 'calc(1em + 2vmin)',
   fontFamily: 'fantasy',
   fontWeight: 500,
@@ -11,14 +12,14 @@ const Projects = () => {
     -0.0625em 0.0625em 0px white,
     calc(-0.0625em - 0.025em) calc(0.0625em + 0.025em) 0px lightblue
   `
-};
+};*/
 
 
     
   return (
     <div className='projects'>
 
-        <h2 className='brownTitle'>Projects</h2>
+        <h2 className='brownTitle' >Projects</h2>
         <span>Hobby projects mixed with school projects</span>
         <div className='projectWrapper'>
         <div className='projectContainer'>
