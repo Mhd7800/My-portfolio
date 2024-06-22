@@ -1,0 +1,140 @@
+.projects{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 100dvi;
+}
+
+.projectWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.projects span{
+    margin: 20px 0px;
+    font-size:medium;
+    font-size: 20px;
+}
+
+
+.projectContainer{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #595757;
+    padding: 10px;
+}
+
+.projectContainer:hover{
+    transform: scale(1.1);
+    background-color: #dbdada;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projectUpper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+    /*margin: 10px;*/
+}
+.projectTitle span {
+    color: brown;
+    font-weight: 600;
+    
+}
+
+.projectContent{
+    /*margin: 10px;*/
+}
+
+.projectIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectIcons img {
+    width: 24px;
+  height: 24px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.projectIcons svg {
+    width: 24px;
+  height: 24px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.projectIcons svg:hover,
+.projectIcons img:hover {
+  transform: scale(1.2);
+}
+
+.projectBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
+
+
+.projectBottom svg {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 8px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
+}
+
+.projectBottom svg:hover{
+    transform: scale(1.2);
+}
+
+
+@media only screen and (max-width: 600px){
+    .projects{
+        margin: 100px 20px;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    
+.projectWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.projects span{
+    font-size: 18px;
+}
+
+
+.projectContainer{
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid #595757;
+    padding: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.projectContainer:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+}

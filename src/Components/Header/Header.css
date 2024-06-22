@@ -1,0 +1,115 @@
+.Header {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin: 0 auto;
+  width: min(100%, 1100px);
+}
+
+.HeaderLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+.HeaderLeft a {
+  color: brown;
+}
+
+.HeaderRight a {
+  color: black;
+}
+
+.HeaderRight ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(123, 123, 102);
+}
+
+li a {
+  background-color: transparent;
+  padding: 0 20px;
+}
+
+#hireme {
+  color: white;
+  background-color: brown;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+#hireme:hover {
+  transform: scale(1.2);
+}
+
+.Hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.Bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.open {
+  transform: rotate(0deg);
+}
+
+.Hamburger .Bar:nth-child(2) {
+  opacity: 0;
+}
+
+.Hamburger .Bar:nth-child(3) {
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 600px) {
+  .HeaderRight {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    text-align: center;
+    z-index: 1;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .HeaderRight.open {
+    display: block;
+  }
+
+  .HeaderRight ul {
+    flex-direction: column;
+  }
+
+  .HeaderRight li {
+    padding: 15px 0;
+  }
+
+  .Hamburger {
+    display: flex;
+  }
+}
