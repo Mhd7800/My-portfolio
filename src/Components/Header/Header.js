@@ -23,10 +23,10 @@ const Header = () => {
           <div className={`HeaderRight ${isOpen ? 'open' : ''}`}>
             <ul>
               <li><a href='/'>Home</a></li>
-              <li><a href='#'>Projects</a></li>
-              <li><a href='#'>Resume</a></li>
-              <li><a href='#'>About</a></li>
-              <li><a href='#' id='hireme'>Hire me</a></li>
+              <li><a href='www.google.com'>Projects</a></li>
+              <li><a href='www.google.com'>Resume</a></li>
+              <li><a href='www.google.com'>About</a></li>
+              <li><a href='www.google.com' id='hireme'>Hire me</a></li>
             </ul>
           </div>
         </div>

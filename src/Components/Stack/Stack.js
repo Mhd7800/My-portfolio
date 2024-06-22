@@ -28,7 +28,7 @@ const Stack = () => {
                 <span>boostrap</span>
             </div>
             <div id='elements'>
-                <img src='https://img.icons8.com/?size=100&id=egQrEphjrirz&format=png&color=1A1A1A'></img>
+                <img src='https://img.icons8.com/?size=100&id=egQrEphjrirz&format=png&color=1A1A1A' alt='redux'></img>
                 <span>Redux</span>
             </div>
         </div>

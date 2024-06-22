@@ -13,7 +13,7 @@ const About = () => {
            </p>
         </div>
         <div className='aboutRight'>
-            <img src='https://firebasestorage.googleapis.com/v0/b/medium-clone-3c1d7.appspot.com/o/Portfolio%2FIMG_7778.jpg?alt=media&token=1ddcce0c-9afa-41f4-bcd1-89f82fff47d8'>
+            <img src='https://firebasestorage.googleapis.com/v0/b/medium-clone-3c1d7.appspot.com/o/Portfolio%2FIMG_7778.jpg?alt=media&token=1ddcce0c-9afa-41f4-bcd1-89f82fff47d8' alt='me'>
             </img>
         </div>
     </div>
