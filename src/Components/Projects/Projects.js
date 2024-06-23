@@ -19,7 +19,7 @@ const Projects = () => {
   return (
     <div className='projects'>
 
-        <h2 className='brownTitle' >Projects</h2>
+        <h2 className='brownTitle'>Projects</h2>
         <span>Hobby projects mixed with school projects</span>
         <div className='projectWrapper'>
         <div className='projectContainer'>

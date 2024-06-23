@@ -4,7 +4,6 @@
     gap: 30px;
     margin-left: 200px;
     margin-top: 200px;
-    height: 100vh;
 }
 
 .mainLeft img {
@@ -22,6 +21,15 @@
    display: flex;
    flex-direction: column;
 }
+
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+
 
 
 
