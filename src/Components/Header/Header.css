@@ -86,6 +86,7 @@ li a {
 
 @media (max-width: 600px) {
   .HeaderRight {
+    
     display: none;
     width: 100%;
     position: absolute;
@@ -111,5 +112,9 @@ li a {
 
   .Hamburger {
     display: flex;
+  }
+
+  .header{
+    margin: 0 50px;
   }
 }
