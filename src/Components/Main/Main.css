@@ -34,6 +34,11 @@
 
 
 @media only screen and (max-width: 600px){
+    
+    .mainWrapper{
+        margin: 50px 0;
+    }
+    
     .mainContainer{
         display: flex;
         flex-direction: column;
@@ -48,11 +53,6 @@
         width: 150px;
         height: 150px;
         border: 33%;
-    }
-    .mainRight span {
-        font-size: 25px;
-        font-weight: 400;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
     .mainRight{
