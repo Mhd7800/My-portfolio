@@ -18,7 +18,7 @@ const Header = () => {
       <nav>
         <div className='Header'>
           <div className='HeaderLeft'>
-            <span><a href='/'>MO</a></span>
+            <span className='brownTitle'><a href='/'>MO</a></span>
           </div>
           <div className='Hamburger' onClick={toggleMenu}>
           {isOpen ? (
