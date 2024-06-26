@@ -3,7 +3,6 @@ import "./Header.css";
 import {
   Link
 } from "react-router-dom";
-import { Squash as Hamburger } from "hamburger-react";
 
 
 const Header = () => {
