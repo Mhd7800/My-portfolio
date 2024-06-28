@@ -3,11 +3,13 @@
     display: flex;
     flex-direction: column;
     /*height: 100dvi;*/
+    height: max-content;
 }
 
 .projectWrapper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -48,7 +50,7 @@
 }
 
 .projectContent{
-    /*margin: 10px;*/
+    margin: 10px 0;
 }
 
 .projectIcons{
@@ -80,9 +82,11 @@
 
 .projectBottom{
     display: flex;
-    flex-direction: row;
+    flex-direction:row ;
     justify-content: flex-start;
-    margin: 10px 0px;
+    margin: 10px 0px;   
+    /*position: relative;
+    bottom: 10px;*/
 }
 
 
@@ -104,7 +108,7 @@
         margin: 100px 20px;
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        height: max-content;
     }
 
     
@@ -120,8 +124,8 @@
 
 
 .projectContainer{
-    width: 350px;
-    height: 350px;
+    width: 370px;
+    height: 370px;
     border-radius: 5%;
     display: flex;
     flex-direction: column;

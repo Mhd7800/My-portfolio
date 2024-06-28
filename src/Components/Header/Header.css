@@ -101,12 +101,11 @@ li a {
     height: 100vh;
     position: absolute;
     top: 60px;
-    left: 0;
     background-color: white;
-    text-align: center;
     z-index: 1;
     transition: max-height 0.3s ease-in-out;
     justify-content: center;
+    align-items: center;
   }
 
   .HeaderRight.open {
@@ -128,8 +127,7 @@ li a {
 
   .Hamburger {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start
+    
   }
 
 }

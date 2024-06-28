@@ -86,36 +86,38 @@
     display: flex;
     flex-direction: column;
     margin: 10px 20px;
-    height: 500px;
+    height: auto;
     justify-content: flex-start;
-    align-items: flex-start;
-    gap:0;
+    align-items: stretch;
+    gap:20px;
   }
 
-  .contactLeft svg{
+  .contactLeft {
+    margin-bottom: 20px;
+  }
+
+  .contactLeft svg {
     height: 25px;
     width: 25px;
-    align-items: flex-start;
-    justify-content: flex-start
   }
 
 .contactForm{
   display: flex;
   flex-direction: column;
   margin: 0;
+  width: 100%;
 }
 
 .contactForm input,
   .contactForm textarea {
     padding-left: 10px;
     margin: 10px 0;
-   
+    width: calc(100% - 20px);
   }
 
   .contactForm textarea {
     height: 150px;
   }
-
   
 
 }
